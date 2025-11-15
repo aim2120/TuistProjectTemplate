@@ -6,7 +6,7 @@ let module = Module(
     targets: [
         Module.Target(
             name: "RESTService",
-            destinations: .iOS,
+            destinations: .appDestinations,
             type: .library,
             dependencies: [
                 .local(module: "LoggingService", target: "LoggingService"),

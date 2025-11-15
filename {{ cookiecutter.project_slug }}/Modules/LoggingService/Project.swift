@@ -6,7 +6,7 @@ let module = Module(
     targets: [
         Module.Target(
             name: "LoggingService",
-            destinations: .iOS,
+            destinations: .appDestinations,
             type: .library,
             dependencies: [
                 .external(target: "Logging"),

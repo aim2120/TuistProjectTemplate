@@ -8,7 +8,7 @@ let appTargetDependencies: [TargetDependency] = modules().map { .project(target:
 
 let appTarget: Target = .target(
     name: "{{ cookiecutter.app_name }}",
-    destinations: .iOS,
+    destinations: .appDestinations,
     product: .app,
     bundleId: bundleID,
     deploymentTargets: .appDeploymentTargets,
@@ -41,7 +41,7 @@ let appTarget: Target = .target(
 
 let appTestTarget: Target = .target(
     name: "{{ cookiecutter.app_name }}Tests",
-    destinations: .iOS,
+    destinations: .appDestinations,
     product: .unitTests,
     bundleId: bundleID(name: "{{ cookiecutter.app_name }}Tests"),
     deploymentTargets: .appDeploymentTargets,
