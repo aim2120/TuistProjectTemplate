@@ -1,2 +1,3 @@
 [tools]
 tuist = "4.104.6"
+trunk = "1.3.4"

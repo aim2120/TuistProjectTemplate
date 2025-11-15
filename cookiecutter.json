@@ -5,5 +5,6 @@
   "author": "Annalise Mariottini",
   "username": "aim2120",
   "development_team": "UD727TU799",
-  "app_destination": ["iOS", "macOS", "watchOS", "tvOS"]
+  "app_destination": ["iOS", "macOS", "watchOS", "tvOS"],
+  "generate_project": ["true", "false"]
 }
