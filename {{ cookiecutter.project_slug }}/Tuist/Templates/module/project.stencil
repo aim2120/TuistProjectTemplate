@@ -1,0 +1,24 @@
+import ProjectDescription
+import ProjectDescriptionHelpers
+
+let module = Module(
+    name: "{{ name }}",
+    targets: [
+        Module.Target(
+            name: "{{ name }}",
+            destinations: .appDestinations,
+            type: .library,
+            dependencies: []
+        ),
+        Module.Target(
+            name: "{{ name }}Tests",
+            destinations: .appDestinations,
+            type: .unitTests,
+            dependencies: [
+                .target(name: "{{ name }}"),
+            ]
+        ),
+    ]
+)
+
+let project = Project(module)
