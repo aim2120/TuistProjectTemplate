@@ -13,7 +13,7 @@ import PackageDescription
 #endif
 
 let package = Package(
-    name: "{{ cookiecutter.app_name }}",
+    name: "{{ cookiecutter.__app_name }}",
     dependencies: [
         .package(url: "https://github.com/apple/swift-log.git", from: "1.0.0"),
         // You can read more about dependencies here: https://docs.tuist.io/documentation/tuist/dependencies

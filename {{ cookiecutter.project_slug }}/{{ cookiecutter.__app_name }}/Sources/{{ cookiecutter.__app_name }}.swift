@@ -2,7 +2,7 @@ import Foundation
 import SwiftUI
 
 @main
-struct {{ cookiecutter.app_name }}: App {
+struct {{ cookiecutter.__app_name }}: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

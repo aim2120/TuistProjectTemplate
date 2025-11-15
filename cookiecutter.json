@@ -1,7 +1,7 @@
 {
   "project_name": "Project Name",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-  "app_name": "{{ cookiecutter.project_name.replace(' ', '') }}",
+  "__app_name": "{{ cookiecutter.project_name.replace(' ', '') }}",
   "author": "Annalise Mariottini",
   "username": "aim2120",
   "development_team": "UD727TU799",

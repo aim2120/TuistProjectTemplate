@@ -6,7 +6,7 @@
 //
 
 public var bundleID: String {
-    "com.{{ cookiecutter.username }}.{{ cookiecutter.app_name }}"
+    "com.{{ cookiecutter.username }}.{{ cookiecutter.__app_name }}"
 }
 
 public func bundleID(name: String) -> String {
