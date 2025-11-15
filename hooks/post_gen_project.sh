@@ -6,6 +6,11 @@ print_step() {
     echo "‍🍪 Cookiecutter ==> $1"
 }
 
+if [ "$SKIP_POST" == "true" ]; then
+    print_step "Skipping post-generation hooks"
+    exit 0
+fi
+
 # Trust files
 print_step "Trusting files"
 mise trust -a
