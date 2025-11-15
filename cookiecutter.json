@@ -2,9 +2,9 @@
   "project_name": "Project Name",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
   "__app_name": "{{ cookiecutter.project_name.replace(' ', '') }}",
-  "author": "Annalise Mariottini",
-  "username": "aim2120",
-  "development_team": "UD727TU799",
+  "author": "Author Name",
+  "username": "username",
+  "development_team": "apple_dev_team",
   "app_destination": ["iOS", "macOS", "watchOS", "tvOS"],
   "generate_project": ["true", "false"],
   "_copy_without_render": ["Tuist/Templates/**"]
